@@ -1,0 +1,7 @@
+#surefire
+#Wed Jun 04 14:43:58 EEST 2014
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.0\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=C\:\\tests\\mavenproject1
+file.encoding=UTF-8
+localRepository=C\:\\Users\\Andrew\\.m2\\repository
+basedir=C\:\\tests\\mavenproject1
