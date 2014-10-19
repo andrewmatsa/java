@@ -1,0 +1,15 @@
+package main;
+
+public class Albom implements IAlbom {
+	public String title;
+	public String music;
+	public void showTitle() {
+		System.out.println(this.title);
+	}
+	public void showTitle(String title) {
+		System.out.println(title);
+	}
+	public void showMusic() {
+		System.out.println("Some album");
+	}
+}

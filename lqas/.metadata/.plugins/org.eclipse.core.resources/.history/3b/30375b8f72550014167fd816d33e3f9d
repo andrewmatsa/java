@@ -1,0 +1,15 @@
+package others;
+import main.Program4;
+
+
+public class Program41 extends Program4 {
+	public void test(){
+		Program4 p = new Program4();
+			
+		p.testPublic();
+//		p.testPrivate();
+//		p.testDefault();
+		p.testProtected();
+	}
+
+}

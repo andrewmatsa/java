@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;first.automation.FirstClass.java&apos; to &apos;IteratorDemo.java&apos;&#x0D;&#x0A;- Original project: &apos;FirstTest&apos;&#x0D;&#x0A;- Original element: &apos;first.automation.FirstClass.java&apos;&#x0D;&#x0A;- Renamed element: &apos;first.automation.IteratorDemo.java&apos;" description="Rename compilation unit &apos;FirstClass.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;first.automation{FirstClass.java" name="IteratorDemo.java" references="false" stamp="1412007357194" version="1.0"/>
+</session>

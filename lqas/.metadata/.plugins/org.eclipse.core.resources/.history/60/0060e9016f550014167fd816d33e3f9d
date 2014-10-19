@@ -1,0 +1,6 @@
+import Program4;
+
+
+public class Program42 extends Program4 {
+
+}

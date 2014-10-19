@@ -1,0 +1,24 @@
+package main;
+
+import others.IArtist;
+
+public class Music implements IAlbom, IArtist {
+
+	public String name, albom;
+	
+	@Override
+	public void showName() {
+		System.out.println("Artist: " + name);
+	}
+
+	@Override
+	public void showTitle() {
+		System.out.println("Albom: " + albom);
+	}
+
+	@Override
+	public void showTitle(String title) {
+		System.out.println("Albom: " + title);
+	}
+	
+}

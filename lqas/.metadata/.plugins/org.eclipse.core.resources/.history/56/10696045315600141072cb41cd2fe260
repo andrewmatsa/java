@@ -1,0 +1,7 @@
+package main;
+
+import others.IArtist;
+
+public class Music implements IAlbom, IArtist {
+	
+}

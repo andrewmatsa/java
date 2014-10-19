@@ -1,0 +1,7 @@
+package main;
+
+public class TestAbstract2 extends TestAbstract {
+	public void doIt() {
+		System.out.println("I've done it");	
+	}
+}

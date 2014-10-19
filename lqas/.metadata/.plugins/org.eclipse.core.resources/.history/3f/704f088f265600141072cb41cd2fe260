@@ -1,0 +1,16 @@
+package others;
+
+import main.Program4;
+
+
+public class Program41 extends Program4 {
+
+	private Program41() {
+		super();
+		ownTest();
+	}
+
+	public static Program41 createInstance() {
+		return new Program41();
+	}
+}

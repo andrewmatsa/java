@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class program4 {
+	public String artist;
+	public String nameOfSound;
+	public float duration;
+	private int year;
+}
+
+	
+
+

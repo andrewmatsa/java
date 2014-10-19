@@ -1,0 +1,13 @@
+package others;
+
+
+public class Program42 extends Program4 {
+	public void test(){
+		Program4 p = new Program4();
+	
+		p.testPublic();
+		p.testPrivate();
+		p.testDefault();
+		p.testProtected();
+	}
+}

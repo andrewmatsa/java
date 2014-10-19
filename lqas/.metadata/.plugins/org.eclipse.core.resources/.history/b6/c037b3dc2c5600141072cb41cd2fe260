@@ -1,0 +1,10 @@
+package main;
+
+public class TestReal extends TestAbstract {
+	public abstract void doIt() {
+		System.out.println("I've done it");	
+	}
+	public void doElse() {
+		System.out.println("Child Else");
+	}
+}

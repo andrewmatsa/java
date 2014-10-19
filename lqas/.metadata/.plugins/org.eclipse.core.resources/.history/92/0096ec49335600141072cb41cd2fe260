@@ -1,0 +1,7 @@
+package others;
+
+public class Parent1 {
+	public void test() {
+		System.out.println("1");
+	}
+}

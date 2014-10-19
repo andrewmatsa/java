@@ -1,0 +1,19 @@
+package com.course.automation;
+
+/**
+ * 
+ * @author Andrew
+ *
+ */
+public class Automation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Dibridin ");
+		Integer m1 = Integer.getInteger("100");
+		
+		String petro = "Petro";
+		petro.
+	}
+
+}

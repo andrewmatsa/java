@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+
+public class program4 {
+
+	public static void main(String[] args) {
+		// Declare and fill collection.
+		ArrayList collection = new ArrayList();
+		collection.add("elem1");
+		collection.add("elem2");
+		collection.add("elem2");
+		collection.add("elem4");
+		collection.add("elem5");
+		collection.add("elem6");
+		collection.add("elem6");
+		collection.add("elem6");
+		collection.add("elem9");
+		collection.add("elem10");
+
+		// Print collection.
+		System.out.print("Collection data: " + collection);
+
+	}
+
+}

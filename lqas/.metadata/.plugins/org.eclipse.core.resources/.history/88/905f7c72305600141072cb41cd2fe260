@@ -1,0 +1,12 @@
+package main;
+
+public class Albom extends AbstractAlbom implements IAlbom {
+	public String title;
+	public String music;
+	public void showTitle() {
+		System.out.println(this.title);
+	}
+	public void showMusic() {
+		System.out.println("Music: " + this.music);
+	}
+}

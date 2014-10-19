@@ -1,0 +1,9 @@
+package others;
+
+import main.Program4;
+
+
+public class Program41 extends Program4 {
+
+
+}

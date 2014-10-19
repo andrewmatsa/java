@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+import com.lqas.oop.TeamM;
+
+
+public class Car {
+    // Fields
+    private String name;    //Can get but not change
+    private double salary;  // Cannot get or set    // Constructor
+    Employee(String n, double s) {        
+    	name = n; salary = s; 
+    }    // Methods
+    void pay () {
+        System.out.println("Pay to the order of " +
+                                    name + " $" + salary);
+    }    public String getName() { return name; } // getter
+}
+
+
+	
+
+

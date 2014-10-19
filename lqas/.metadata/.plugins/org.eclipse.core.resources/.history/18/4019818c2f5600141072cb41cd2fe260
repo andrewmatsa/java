@@ -1,0 +1,7 @@
+package main;
+
+public class AbstractAlbom implements IAlbom {
+	public void showTitle() {
+		System.out.println("Some album");
+	}
+}

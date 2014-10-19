@@ -1,0 +1,8 @@
+package main;
+
+public class TestReal extends TestAbstract {
+	public abstract void doIt();
+	public void doElse() {
+		System.out.println("Child Else");
+	}
+}

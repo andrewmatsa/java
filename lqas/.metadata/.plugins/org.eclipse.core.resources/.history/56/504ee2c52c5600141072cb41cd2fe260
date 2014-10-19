@@ -1,0 +1,10 @@
+package main;
+
+public abstract class TestAbstract{
+	public int a = 5;
+
+	public abstract void doIt();
+	public void doElse() {
+		System.out.println("Else");
+	}
+}

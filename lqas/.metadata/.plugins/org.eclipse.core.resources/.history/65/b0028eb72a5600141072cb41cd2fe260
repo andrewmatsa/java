@@ -1,0 +1,6 @@
+package main;
+
+
+public class Program42 extends Program4 {
+
+}

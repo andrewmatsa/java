@@ -1,0 +1,6 @@
+package others;
+
+public interface Artist {
+	public String void showName();
+	
+}

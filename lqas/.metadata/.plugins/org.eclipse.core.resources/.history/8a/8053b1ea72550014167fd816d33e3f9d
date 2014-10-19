@@ -1,0 +1,97 @@
+package main;
+
+public class Program4 {
+
+	private String artist;
+	private String nameOfSound;
+	private double duration;
+	private int year;
+
+	public String getArtist() {
+		return artist;
+	}
+
+	public void setArtist(String artist) {
+		this.artist = artist;
+	}
+
+	public String getNameOfSound() {
+		return nameOfSound;
+	}
+
+	public void setNameOfSound(String nameOfSound) {
+		this.nameOfSound = nameOfSound;
+	}
+
+	public double getDuration() {
+		return duration;
+	}
+
+	public void setDuration(double duration) {
+		this.duration = duration;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	// methods
+	public String getSongInfo() {
+		return this.artist + " " + this.nameOfSound + " "
+				+ Double.toString(this.duration) + " "
+				+ Integer.toString(this.year);
+	}
+
+	public boolean isNew() {
+		return (this.year > 2008 && this.duration > 4.0) ? true : false;
+	}
+
+	public double getSomeNum() {
+		return this.duration + this.year;
+	}
+	
+	private void testPrivate() {
+		System.out.println("private");
+	}
+	
+	void testDefault() {
+		System.out.println("default");
+	}
+	
+	protected void testProtected() {
+		System.out.println("protected");
+	}
+	
+	public void testPublic() {
+		System.out.println("public");
+	}
+
+	public static void test() {
+		System.out.println("static");
+	}
+	
+	public static void main(String[] args) {
+		Program4 p = new Program4();
+		p.setArtist("Lana dell ray");
+		p.setDuration(4.33);
+		p.setNameOfSound("Cola");
+		p.setYear(2013);
+		System.out.println(p.getSongInfo());
+		p.testPublic();
+		p.testPrivate();
+		p.testDefault();
+		p.testProtected();
+		if (p.isNew()) {
+			System.out.println("new");
+
+		} else {
+			System.out.println("this song is old " + p.getNameOfSound());
+		}
+		System.out.println(p.getSomeNum());
+	}
+	
+}

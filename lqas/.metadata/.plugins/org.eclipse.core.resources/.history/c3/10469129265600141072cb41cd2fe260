@@ -1,0 +1,16 @@
+package others;
+
+import main.Program4;
+
+
+public class Program41 extends Program4 {
+
+	Program41() {
+		super();
+		ownTest();
+	}
+
+	static void ownTest() {
+		System.out.println("OwnTest");
+	}
+}

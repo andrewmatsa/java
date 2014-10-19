@@ -1,0 +1,8 @@
+package main;
+
+public class TestAbstract2 extends TestAbstract {
+	public abstract void doJob();
+	public void doIt() {
+		System.out.println("I've done it");	
+	}
+}

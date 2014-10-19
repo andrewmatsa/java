@@ -1,0 +1,25 @@
+package main;
+
+import others.IArtist;
+
+public class Music implements IAlbom, IArtist {
+
+	@Override
+	public void showName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showTitle() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showTitle(String title) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
